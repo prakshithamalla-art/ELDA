@@ -85,11 +85,10 @@ void test_eigenvalues_convergence() {
 
     std::cout << "Eigenvalue convergence tests passed!" << std::endl;
 }
-
 int main() {
     std::cout << "=== STARTING ELDA CORE UNIT TESTS ===" << std::endl;
     test_robust_qr_decomposition();
+    test_eigenvalues_convergence();
     std::cout << "=== ALL TESTS PASSED SUCCESSFULLY ===" << std::endl;
     return 0;
-    test_eigenvalues_convergence();
 }
